@@ -1,0 +1,198 @@
+@font-face {
+  font-family: Allura;
+  src: url(Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: Stylish_Calligraphy;
+  src: url(Stylish-Calligraphy-Demo.ttf);
+}
+
+@font-face {
+  font-family: Aurella;
+  src: url(Aurella.ttf);
+}
+
+@font-face {
+  font-family: MrsSaintDelafield;
+  src: url(MrsSaintDelafield-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nazeefa;
+  src: url(nazeefa-demo.ttf);
+}
+
+@font-face {
+  font-family: Creattion;
+  src: url(Creattion-Demo.otf);
+}
+
+@font-face {
+  font-family: Andasia;
+  src: url(Andasia-Demo.ttf);
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.start {
+    background-color: #ffc341;
+    color: black;
+
+}
+
+.start:hover {
+    background-color: #fcd37a;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+  position: absolute;
+}
+
+.center_horizontally {
+  margin-left: auto;
+  margin-right: auto;
+  right: 50%;
+  transform: translate(50%,50%);
+  position: absolute;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #530000;
+  font-size: 50px;
+  font-family: Aurella;
+}
+
+.taylorswift {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #530000;
+  font-size: 50px;
+  font-family: Andasia;
+  padding: 8px;
+}
+
+p {
+  text-align: left;
+}
+
+input[type="submit"]{
+  border: none;
+  background-color: #ff2bb8;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: #a51475;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.purplebutton {
+  
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #7c175c;
+  background-color: #7c175c;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: Arial;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin:auto;
+}
+
+.purplebutton:hover {
+  background-color: #440c32;
+}
+
+
+.aligncenter {
+  text-align: center;
+  height: 10%;
+}
+
+body {
+  background-image: url("taylorwithcat_background.png");
+  background-repeat: no-repeat;
+}
+
+.table_second_page {
+  margin-left: auto;
+  margin-right: auto;
+  top: 23%;
+  position: absolute;
+}
+
+td {
+  text-align: left;
+  height: 70px;
+}
+.choosealbums_text {
+  color: "pink";
+  font-size: 25px;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+.givetime_field {
+  font-size: 20px;
+  width: 15%;
+}
+
+.form {
+  font-size: 18px;
+  margin: 20%;
+  font-family: Arial;
+}
+
+.toluca {
+  position:fixed;
+  bottom:3%;
+  right:0;
+  padding: 20px;
+}
+
+.created {
+  position: fixed;
+  bottom:0;
+  right: 0;
+  padding: 20px;
+  color: #9b9b9b;
+}

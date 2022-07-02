@@ -1,0 +1,6 @@
+ellenőrizze a guesseket
+szebb legyen
+guesst is más betűtípussal
+ne legyen felesleges php az elején, az csak beolvasson, a maradékot javascriptben intézze
+két külön css?
+php ne szenvedjen minden frissítésnél, csak egyszer olvasson be? hogy ne legyenek a warningok
